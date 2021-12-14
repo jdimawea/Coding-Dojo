@@ -1,8 +1,14 @@
-body {
-    background-color: black;
-}
+
 h1 {
-    color: rebeccapurple;
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: lightpink;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+#red {
+    background-color: salmon;
 }
