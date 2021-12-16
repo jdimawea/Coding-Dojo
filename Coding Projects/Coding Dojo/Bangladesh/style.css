@@ -1,0 +1,18 @@
+.flag {
+    display: flex;
+    width: 200px;
+}
+
+.green {
+    height: 100px;
+    width: 100%;
+    background-color: #008756;
+}
+
+.red {
+    background-color: #fb2b3d;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 1em 0 0 3em;
+}
