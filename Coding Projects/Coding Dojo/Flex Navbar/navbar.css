@@ -1,0 +1,32 @@
+.nav {
+    background-color: rgb(68, 66, 66);
+    display: flex;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+.nav-title{
+    font-family: "Roboto", sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.nav-links li {
+    font-family: "Roboto", sans-serif;
+    display: inline-flex;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    background-color: teal;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+[href] {
+    color: white;
+    text-decoration: none;
+}
