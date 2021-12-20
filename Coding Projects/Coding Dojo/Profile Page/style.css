@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#navbar {
+    background-color: rgb(68, 66, 66);
+    display: flex;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+.nav-title{
+    font-family: "Roboto", sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 19%;
+    margin: 0px;
+}
+.nav-links li {
+    font-family: "Roboto", sans-serif;
+    display: inline-flex;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    background-color: teal;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+[href] {
+    color: white;
+    text-decoration: none;
+}
+#usercard {
+    flex: 3;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 1em;
+    border: solid 2px black;
+}
+.blue {
+    width: 100%;
+    height: 30%;
+    background-color: #17a2b8;
+    display: block;
+    margin-top: -0.5px;
+}
+div {
+    margin-top: 10px;
+}
+.icon {
+    height: 20px;
+    display: inline-flex;
+    margin-right: 5px;
+}
+.guts {
+    display: block;
+}
+.ppic {
+    width: 75px;
+    border: solid 1px black;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin-left: 25px;
+    display: flex;
+    margin-top: -55px;
+}
+h2 {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: underline;
+    color: #165C99;
+    margin-bottom: 15px;
+}
+.info {
+    margin-left: 25px;
+}
+
+#navleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#education {
+    display: block;
+    width: 30%;
+    border: solid 1px black;
+}
+
+.header {
+    width: 100%;
+    height: 30%;
+    background-color: #333333;
+    display: block;
+    margin-top: -0.5px;
+    font: white;
+}
