@@ -21,7 +21,7 @@
                     <div>
                         <img class="userimg" src="user-circle.png" alt="userimg">
                     </div>
-                    <a>Add an avatar</a>
+                    <href>Add an avatar</href>
                     <h2>James Doe</h2>
                 </div>
             </div>
@@ -29,26 +29,30 @@
                 <div class="box">
                     <div class="content">
                         <h2>Neil M</h2>
-                        <button class="button">Like</button>
+                        <p id="counter" class="counter">0 like(s)</p>
+                        <button onclick="displaycount()" class="button">Like</button>
                     </div>
-                    <p>I just set up this new discord bot, let me know what you all think.<a>link</a></p>
+                    <p>I just set up this new discord bot, let me know what you all think. <href>link</href></p>
                 </div>
                 <div class="box">
                     <div class="content">
                         <h2>Nichole K</h2>
-                        <button class="button">Like</button>
+                        <p id="counter-2" class="counter">0 like(s)</p>
+                        <button onclick="displaycount2()" class="button">Like</button>
                     </div>
-                    <p>Just finished my <a> next comic</a>, check it out.</p>
+                    <p>Just finished my <href>next comic</href>, check it out.</p>
                 </div>
                 <div class="box">
                     <div class="content">
                         <h2>Jim R</h2>
-                        <button class="button">Like</button>
+                        <p id="counter-3" class="counter">0 like(s)</p>
+                        <button onclick="displaycount3()" class="button">Like</button>
                     </div>
-                    <p>I can't stop listening to the <span> new album</span>. Who else is liking it?</p>
+                    <p>I can't stop listening to the <href>new album</href>. Who else is liking it?</p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
