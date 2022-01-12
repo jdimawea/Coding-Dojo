@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.search {
+    height: 20px;
+    width: 20em;
+    margin: auto;
+}
+
+.button {
+    height: 20px;
+    padding: 0px 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #2B78E4;
+    color: white;
+}
+
+.leftbox {
+    border: solid 2px black;
+}
+
+.rightbox {
+    border: solid 2px black;
+    align-items: center;
+}
+
+.box1 {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.box2 {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.box3 {
+    margin-left: 20px;
+    padding: 20px;
+    align-items: center;
+    display: block;
+}
+
+.box3 h2 {
+    text-align: left;
+}
+
+.leftcol {
+    text-align: center;
+    display: inline-block;
+}
+
+.likes {
+    margin-top: 10px;
+    background-color: #FFD966;
+    padding: 5px 15px 5px 15px;
+}
+
+.description {
+    text-align: center;
+    margin: auto;
+}
+
+.definition {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.definition button {
+    padding: 5px 15px 5px 15px;
+    background-color: #93C47D;
+}
+
